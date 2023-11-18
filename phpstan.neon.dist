@@ -6,4 +6,3 @@ parameters:
     reportUnmatchedIgnoredErrors: true
 
     ignoreErrors:
-        - "#Unsafe usage of new static\\(\\)#"
