@@ -1,4 +1,7 @@
 /vendor/
+composer.lock
+/phpunit.xml
+.phpunit.result.cache
 node_modules/
 npm-debug.log
 yarn-error.log
@@ -20,4 +23,3 @@ storage/*.key
 Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
