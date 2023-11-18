@@ -2,7 +2,7 @@
 
 use Damilaredev\LaravelEmail\LaravelEmailServiceProvider;
 
-it('provides', function () {
+test('service provider resolves', function () {
     $provider = app()->resolveProvider(LaravelEmailServiceProvider::class);
 
     expect($provider->isDeferred())->toBe(false);
