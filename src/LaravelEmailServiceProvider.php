@@ -54,7 +54,7 @@ class LaravelEmailServiceProvider extends ServiceProvider
     protected function bootComponents(): static
     {
         Blade::componentNamespace(
-            'Damilaredev\\LaravelEmail\\Views\\Components',
+            'Damilaredev\\LaravelEmail\\View\\Components',
             'laravel-email'
         );
 
