@@ -66,3 +66,17 @@ A set of standard components to help you build amazing emails without having to 
     </x-laravel-email.link>
 </x-laravel-email.html>
 ```
+
+- Head
+```html
+<x-laravel-email.head>
+    <title>email title</title>
+</x-laravel-email.head>
+```
+
+- Heading
+```html
+<x-laravel-email.heading as="h1">
+    Lorem Ipsum
+</x-laravel-email.heading> 
+```
