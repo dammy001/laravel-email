@@ -13,9 +13,9 @@ class Img extends Component
      */
     public function __construct(
         public readonly string $src,
-        public readonly string $height = '100%',
+        public readonly string $alt = '',
         public readonly string $width = '100%',
-        public string $alt = '',
+        public readonly string $height = '100%',
     ) {
         //
     }
