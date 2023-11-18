@@ -1,12 +1,12 @@
 <?php
 
 use Damilaredev\LaravelEmail\View\Components\Container as ContainerView;
-use Illuminate\View\View;
-use Illuminate\Support\Facades\Facade;
 use Illuminate\Config\Repository as Config;
-use Illuminate\View\Factory;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\View\Factory as FactoryContract;
+use Illuminate\Support\Facades\Facade;
+use Illuminate\View\Factory;
+use Illuminate\View\View;
 use Mockery as m;
 
 beforeEach(function () {
@@ -46,4 +46,3 @@ test('container view name gets returned', function () {
     $rendered = $component->resolveView();
     $this->viewFactory->shouldReceive('make')->with($rendered, [], [])->andReturn('<p>Hello World</p>');
 })->skip();
-

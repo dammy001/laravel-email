@@ -1,12 +1,12 @@
 <?php
 
 use Damilaredev\LaravelEmail\View\Components\Body;
-use Illuminate\Support\Facades\Facade;
-use Illuminate\View\ComponentAttributeBag;
 use Illuminate\Config\Repository as Config;
-use Illuminate\View\Factory;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\View\Factory as FactoryContract;
+use Illuminate\Support\Facades\Facade;
+use Illuminate\View\ComponentAttributeBag;
+use Illuminate\View\Factory;
 use Mockery as m;
 
 beforeEach(function () {
