@@ -206,6 +206,7 @@ composer install
 ```
 
 #### Tests
+```sh
 composer ci
 ```
 
