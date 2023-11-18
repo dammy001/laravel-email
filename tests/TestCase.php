@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Damilaredev\LaravelEmail\LaravelEmailServiceProvider;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
 {
