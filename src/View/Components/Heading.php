@@ -12,7 +12,7 @@ class Heading extends Component
      * Create a new component instance.
      */
     public function __construct(
-        public readonly string     $as = 'h1',
+        public readonly string $as = 'h1',
         public readonly string|int $m = '',
         public readonly string|int $mx = '',
         public readonly string|int $my = '',
@@ -20,8 +20,7 @@ class Heading extends Component
         public readonly string|int $mr = '',
         public readonly string|int $mb = '',
         public readonly string|int $ml = '',
-    )
-    {
+    ) {
         //
     }
 
@@ -53,7 +52,7 @@ class Heading extends Component
         foreach ($properties as $property) {
             // Check to ensure the value is a valid number
             if (is_numeric($value)) {
-                $styles[$property] = $value . 'px';
+                $styles[$property] = $value.'px';
             }
         }
 
