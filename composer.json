@@ -34,7 +34,7 @@
   },
   "require-dev": {
     "mockery/mockery": "^1.6.6",
-    "orchestra/testbench": "^7.0|^8.0",
+    "orchestra/testbench": "10.9.0",
     "phpstan/phpstan": "^2.0.0",
     "laravel/pint": "^1.13.6",
     "pestphp/pest": "^2.0.0",
