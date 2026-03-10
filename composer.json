@@ -37,7 +37,7 @@
     "orchestra/testbench": "^7.0|^8.0",
     "phpstan/phpstan": "^2.0.0",
     "laravel/pint": "^1.13.6",
-    "pestphp/pest": "^2.0.0",
+    "pestphp/pest": "^4.0.0",
     "phpunit/phpunit": "13.0.3"
   },
   "autoload": {
